@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./app.js" defer></script>
+    <title>Base Converter</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <button class="btn-reset">Reset</button>
+        <nav class="nav">
+          <button class="nav__btn nav__btn--active" data-link="common">Common Bases</button
+          ><button class="nav__btn" data-link="all">All Base</button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="bases-wrapper bases-wrapper-common bases-wrapper--active"></div>
+      <div class="bases-wrapper bases-wrapper-all"></div>
+    </section>
+  </body>
+</html>
